@@ -29,7 +29,7 @@ public class AuthImage extends javax.servlet.http.HttpServlet implements javax.s
         session.removeAttribute("verifyCode");
         session.setAttribute("verifyCode", verifyCode.toLowerCase());  
         //生成图片  
-        int w = 100, h = 30;  
+        int w = 100, h = 34;  
         VerifyCodeUtils.outputImage(w, h, response.getOutputStream(), verifyCode);  
   
     }  
