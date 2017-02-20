@@ -3,7 +3,7 @@
    <td nowrap width="437"></td>
 	<td>
 		<a href='#' onclick="javascript:changeImg()"><img id="img" src="/Test_Captcha/authImage" /></a>
-		<a href='#' onclick="javascript:changeImg()"><label>确定</label></a>
+		<a href='#' onclick="javascript:changeImg()"><label>看不清</label></a>
 	</td>
  </tr>
  
